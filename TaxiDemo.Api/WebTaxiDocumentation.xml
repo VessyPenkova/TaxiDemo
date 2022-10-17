@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaxiDemo.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TaxiDemo.Api.Controllers.TaxiController.GetAll">
+            <summary>
+            Get all avaiable Taxi vehicles
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

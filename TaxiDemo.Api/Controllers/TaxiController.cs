@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaxiDemo.Core.Contracts;
+using TaxiDemo.Core.Models;
 
 namespace TaxiDemo.Api.Controllers
 {
@@ -13,8 +14,14 @@ namespace TaxiDemo.Api.Controllers
         {
             taxiService = _taxiService;
         }
+        /// <summary>
+        /// Get all avaiable Taxi vehicles
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
+        [Produces("application/json")]
+        [ProducesResponseType(200,StatusCode = StatusCodes.Status200OK, Type = typeof(IEnumerable<TaxiDto>))]
         public async Task<IActionResult> GetAll()
         {
 
