@@ -1,0 +1,33 @@
+[
+    {
+      "id": "2f872171-b6ed-4b19-a3c2-f6f02b986b23",
+      "name": "taxiTruck",
+      "price": "1000",
+      "quantity": "2"
+    },
+    {
+      "id": "482d4fe5-e49c-46c6-a57c-6f32931d4828",
+      "name": "taxiSmalTruck",
+      "price": "500",
+      "quantity": "2"
+    },
+    {
+      "id": "b528b0ae-d851-4893-84a5-e7eb3753a662",
+      "name": "taxiVan",
+      "price": "250",
+      "quantity": "4"
+    },
+    {
+      "id": "ca6d8ca7-6425-4f5d-a619-37ee73868123",
+      "name": "taxiMinivan",
+      "price": "125",
+      "quantity": "8"
+    },
+    {
+      "id": "104cebca-4c2b-43b4-a083-b2eceb5e5266",
+      "name": "taxiCady",
+      "price": "75",
+      "quantity": "16"
+    }
+  ]
+

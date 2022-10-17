@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaxiDemo</name>
+    </assembly>
+    <members>
+        <member name="T:TaxiDemo.Controllers.TaxiController">
+            <summary>
+            //Web Taxi Product
+            </summary>
+        </member>
+        <member name="F:TaxiDemo.Controllers.TaxiController.taxiService">
+            <summary>
+            List All requests for taxi
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
