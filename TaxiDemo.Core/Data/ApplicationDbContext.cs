@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace TaxiDemo.Data
+namespace TaxiDemo.Core.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
